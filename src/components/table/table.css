@@ -1,0 +1,48 @@
+.stylesTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 4%;
+}
+.stylesTable h3:hover {
+    color: rgb(110, 243, 255);
+}
+.stylesTable table {
+    display: flex;
+    flex-direction: column;
+}
+.stylesTable tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}
+.stylesTable th {
+    margin: 12px 12px;
+    color: beige;
+}
+.tableRow {
+    margin-top: 5px;
+}
+
+.tableRow tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.tableRow td {
+    width: 12rem;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    margin-left: 2px;
+
+}
+.tableRow button {
+    margin-left: 8px;
+}
+

@@ -1,0 +1,21 @@
+.formBox {
+    display: flex;
+    flex-direction: column;
+}
+.formBox form {
+    display: flex;
+    flex-direction: row;
+}
+.formBox input {
+    margin-left: 2px;
+    margin-top: 2rem;
+}
+.formBox span {
+    color: beige;
+    letter-spacing: 4px;
+    padding-top: 4px;
+}
+.formBox span:hover {
+    color: rgb(110, 243, 255);
+    font-weight: bold;
+}
